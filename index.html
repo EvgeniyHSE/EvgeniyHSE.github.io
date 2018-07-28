@@ -33,6 +33,16 @@
 				} else { f(); }
 			})(document, window, "yandex_metrika_callbacks2");
 		</script>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123012340-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-123012340-1');
+		</script>
+
 		<noscript><div><img src="https://mc.yandex.ru/watch/49780753" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 		<!-- /Yandex.Metrika counter -->
 	
@@ -182,7 +192,7 @@
 					</header>
 					<div class="row">
 						<div class="col-12">
-							<form method="post" action="#">
+							<form method="post" action="mailto:uevgenii@yandex.ru" novalidate>
 								<div class="row">
 									<div class="col-6 col-12-small">
 										<input type="text" name="name" id="name" placeholder="Имя" />
