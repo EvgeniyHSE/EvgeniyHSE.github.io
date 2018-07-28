@@ -162,6 +162,16 @@ input, select, textarea {
 	h2, h3, h4, h5, h6 {
 		font-weight: 700;
 	}
+	
+	.edu{
+		font-size : 1em;
+		color : #000000;
+	}
+	
+	.work{
+		color : #000000;
+		font-size : 1em;
+	}
 
 	h1 {
 		font-size: 3.25em;
@@ -201,7 +211,7 @@ input, select, textarea {
 	}
 
 	p, ul, ol, dl, table {
-		margin-bottom: 2em;
+		margin-bottom: 1em;
 	}
 
 	header {
