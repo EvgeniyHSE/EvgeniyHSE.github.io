@@ -1886,6 +1886,12 @@ input, select, textarea {
 				ul.social li a.fa-facebook {
 					background-color: #3C5A98;
 				}
+				ul.social li a.fa-telegram {
+					background-color: #0088cc;
+				}
+				ul.social li a.fa-vk {
+					background-color: #45668e;
+				}
 
 				ul.social li a.fa-dribbble {
 					background-color: #C4376B;
@@ -1904,7 +1910,7 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-github {
-					background-color: #FAFAFA;
+					background-color: #f5f5f5;
 				}
 
 				ul.social li a.fa-rss {
@@ -1912,7 +1918,7 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-instagram {
-					background-color: #E0D7C8;
+					background-color: #833ab4;
 				}
 
 				ul.social li a.fa-foursquare {
