@@ -163,6 +163,17 @@ input, select, textarea {
 		font-weight: 700;
 	}
 	
+	.flag{
+		position: absolute;
+		width : 10%;
+		height : 100%;
+		top : 0;
+		right : 0;
+	}
+	.flag a	img {	
+		vertical-align : middle;
+	}
+	
 	.edu{
 		font-size : 1em;
 		color : #000000;
@@ -177,13 +188,11 @@ input, select, textarea {
 		position: relative;
 		/*display: inline-block;*/
 	}
-	
 	.tags p{
 		position: absolute;
 		right: 0.1em;
 		top: 0.1em;
 	}
-	
 	.tags p span{
 		position : relative;
 		border: 0.05em outset black; /* Параметры границы */
@@ -222,7 +231,6 @@ input, select, textarea {
 		background-color : #FFD794; 
 	}
 	
-
 	h1 {
 		font-size: 3.25em;
 		letter-spacing: -0.025em;
@@ -2101,6 +2109,10 @@ input, select, textarea {
 	}
 
 		#nav ul {
+			position : absolute;
+			width : 90%;
+			top : 0;
+			left : 0;
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
