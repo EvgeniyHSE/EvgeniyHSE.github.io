@@ -165,7 +165,7 @@ input, select, textarea {
 	
 	.flag{
 		position: absolute;
-		width : 10%;
+		width : 18%;
 		height : 100%;
 		top : 0;
 		right : 0;
@@ -2110,7 +2110,7 @@ input, select, textarea {
 
 		#nav ul {
 			position : absolute;
-			width : 90%;
+			width : 82%;
 			top : 0;
 			left : 0;
 			margin-bottom: 0;
@@ -2457,7 +2457,7 @@ input, select, textarea {
 			}
 
 				#nav a {
-					padding: 0 0.75em;
+					padding: 0 0.4em;
 					height: inherit;
 					line-height: inherit;
 					border-radius: 0;
