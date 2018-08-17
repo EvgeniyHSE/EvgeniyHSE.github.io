@@ -2495,3 +2495,11 @@ input, select, textarea {
 					}
 
 	}
+	
+input.sending{
+	background: #0175b1 repeating-linear-gradient(45deg, #43bff0, #43bff0 3em, #3BA8D3 3em, #3BA8D3 6em, #43bff0 6em) no-repeat;
+	background-size: 1000% 100%;
+	background-position: 900% 0;
+	opacity : 0.7;
+	transition: background-position linear 600s, color .5s, text-shadow .5s;
+}
