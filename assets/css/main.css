@@ -115,7 +115,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #43bff0 !important;
+			color: #43bff0;
 		}
 
 		a img {
@@ -178,11 +178,40 @@ input, select, textarea {
 		font-size : 1em;
 		color : #000000;
 	}
+		.edu p a:link{
+			color: #1f80ad;
+			text-decoration : none;
+		}
+	
+		.edu p a:hover{
+			color: #43B3E0;
+			text-decoration : underline;
+		}
+		
+		.edu p a:visited{
+			color: #1f80ad;
+			text-decoration : none;
+		}
 	
 	.work{
 		color : #000000;
 		font-size : 1em;
 	}
+	
+		.work p a:link{
+			color: #1f80ad;
+			text-decoration : none;
+		}
+	
+		.work p a:hover{
+			color: #43B3E0;
+			text-decoration : underline;
+		}
+		
+		.work p a:visited{
+			color: #1f80ad;
+			text-decoration : none;
+		}
 	
 	.tags {
 		position: relative;
